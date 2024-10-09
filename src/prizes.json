@@ -1,0 +1,87 @@
+[
+    {
+      "option": "Yerbera",
+      "style": {
+        "backgroundColor": "#BC0D0D",
+        "textColor": "white"
+      },
+      "gender": "fem",
+      "img": "yerbera.jpg",
+      "stock": 1
+    },
+    {
+      "option": "Segui Participando",
+      "style": {
+        "backgroundColor": "white",
+        "textColor": "black",
+        "fontSize": "18"
+      }
+    },
+    {
+      "option": "Bolso Matero",
+      "style": {
+        "backgroundColor": "black",
+        "textColor": "white"
+      },
+      "gender": "masc",
+      "img": "set-matero-6.webp",
+      "stock": 1
+    },
+    {
+      "option": "Yerbera",
+      "style": {
+        "backgroundColor": "#BC0D0D",
+        "textColor": "white"
+      },
+      "gender": "fem",
+      "img": "yerbera.jpg",
+      "stock": 1
+    },
+    {
+      "option": "Segui Participando",
+      "style": {
+        "backgroundColor": "white",
+        "textColor": "black",
+        "fontSize": "18"
+      }
+    },
+    {
+      "option": "Bolso Matero",
+      "style": {
+        "backgroundColor": "black",
+        "textColor": "white"
+      },
+      "gender": "masc",
+      "img": "set-matero-6.webp",
+      "stock": 1
+    },
+    {
+      "option": "Yerbera",
+      "style": {
+        "backgroundColor": "#BC0D0D",
+        "textColor": "white"
+      },
+      "gender": "fem",
+      "img": "yerbera.jpg",
+      "stock": 1
+    },
+    {
+      "option": "Segui Participando",
+      "style": {
+        "backgroundColor": "white",
+        "textColor": "black",
+        "fontSize": "18"
+      }
+    },
+    {
+      "option": "Bolso Matero",
+      "style": {
+        "backgroundColor": "black",
+        "textColor": "white"
+      },
+      "gender": "masc",
+      "img": "set-matero-6.webp",
+      "stock": 1
+    }
+  ]
+  
