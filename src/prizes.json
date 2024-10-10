@@ -1,87 +1,26 @@
 [
-    {
-      "option": "Yerbera",
-      "style": {
-        "backgroundColor": "#BC0D0D",
-        "textColor": "white"
-      },
-      "gender": "fem",
-      "img": "yerbera.jpg",
-      "stock": 1
-    },
-    {
-      "option": "Segui Participando",
-      "style": {
-        "backgroundColor": "white",
-        "textColor": "black",
-        "fontSize": "18"
-      }
-    },
-    {
-      "option": "Bolso Matero",
-      "style": {
-        "backgroundColor": "black",
-        "textColor": "white"
-      },
-      "gender": "masc",
-      "img": "set-matero-6.webp",
-      "stock": 1
-    },
-    {
-      "option": "Yerbera",
-      "style": {
-        "backgroundColor": "#BC0D0D",
-        "textColor": "white"
-      },
-      "gender": "fem",
-      "img": "yerbera.jpg",
-      "stock": 1
-    },
-    {
-      "option": "Segui Participando",
-      "style": {
-        "backgroundColor": "white",
-        "textColor": "black",
-        "fontSize": "18"
-      }
-    },
-    {
-      "option": "Bolso Matero",
-      "style": {
-        "backgroundColor": "black",
-        "textColor": "white"
-      },
-      "gender": "masc",
-      "img": "set-matero-6.webp",
-      "stock": 1
-    },
-    {
-      "option": "Yerbera",
-      "style": {
-        "backgroundColor": "#BC0D0D",
-        "textColor": "white"
-      },
-      "gender": "fem",
-      "img": "yerbera.jpg",
-      "stock": 1
-    },
-    {
-      "option": "Segui Participando",
-      "style": {
-        "backgroundColor": "white",
-        "textColor": "black",
-        "fontSize": "18"
-      }
-    },
-    {
-      "option": "Bolso Matero",
-      "style": {
-        "backgroundColor": "black",
-        "textColor": "white"
-      },
-      "gender": "masc",
-      "img": "set-matero-6.webp",
-      "stock": 1
-    }
-  ]
-  
+  {
+    "gender": "fem",
+    "img": "yerbera.jpg",
+    "option": "Yerbera",
+    "stock": 10
+  },
+  {
+    "option": "Segui Participando",
+    "stock": 9983,
+    "img": "none",
+    "gender": "none"
+  },
+  {
+    "gender": "masc",
+    "img": "set-matero-6.webp",
+    "option": "Bolso Matero",
+    "stock": 10
+  },
+  {
+    "option": "Segui Participando",
+    "stock": 9985,
+    "img": "none",
+    "gender": "none"
+  }
+]

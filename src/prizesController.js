@@ -6,10 +6,7 @@ const prizes = JSON.parse(fs.readFileSync(prizesPath));
 
 module.exports = {
   getPrizes: (req, res) => {
-    const availablePrizes = prizes.filter(
-      (prize) => prize.stock === undefined || prize.stock > 0
-    );
-    res.json(availablePrizes);
+    res.json(prizes);
   },
   claimPrize: (req, res) => {
     const { prizeName } = req.body;
@@ -32,6 +29,41 @@ module.exports = {
       res
         .status(400)
         .json({ success: false, message: "Premio no disponible." });
+    }
+  },
+  updateStock: async function (req, res) {
+    const { option } = req.body;
+    try {
+      // Buscar el premio y actualizar su stock
+      const prize = prizes.find((p) => p.option === option);
+      if (prize) {
+        if (prize.stock > 0) {
+          prize.stock -= 1;
+
+          // Guardar los premios actualizados en el archivo JSON
+          fs.writeFileSync(prizesPath, JSON.stringify(prizes, null, 2), "utf8");
+
+          // Devolver los premios actualizados
+          res.json({
+            success: true,
+            message: `Stock actualizado para ${option}.`,
+            prizes,
+          });
+        } else {
+          res
+            .status(400)
+            .json({ success: false, message: `Stock agotado para ${option}.` });
+        }
+      } else {
+        res
+          .status(404)
+          .json({ success: false, message: "Premio no encontrado." });
+      }
+    } catch (error) {
+      console.error("Error al actualizar el stock:", error);
+      res
+        .status(500)
+        .json({ success: false, message: "Error interno del servidor." });
     }
   },
 };
