@@ -1,1 +1,536 @@
-[]
+// 20241010125702
+// https://luckywheelbackend.onrender.com/users/get
+
+[
+    {
+      "name": "Noé ",
+      "last_name": "Cagnolo ",
+      "email": "n.cagnolo@live.com.ar",
+      "cuit": "2036184265",
+      "phone": "03537603622",
+      "rubro": "Profesional",
+      "company": "Bs group "
+    },
+    {
+      "name": "Xenia",
+      "last_name": "Martinez",
+      "email": "mxeniamartinez@gmail.com",
+      "cuit": "274348678801",
+      "phone": "2625640678",
+      "rubro": "Emprendedor",
+      "company": "Fincaivonne"
+    },
+    {
+      "name": "Virginia",
+      "last_name": "Martinez",
+      "email": "martinezvirginiamaira@gmail.com",
+      "cuit": "27412724564",
+      "phone": "2625455147",
+      "rubro": "Emprendedor",
+      "company": "Fincaivonne"
+    },
+    {
+      "name": "Agustin",
+      "last_name": "Carrabal",
+      "email": "carrabal.agustin@gmail.com",
+      "cuit": "20402188023",
+      "phone": "2634579429",
+      "rubro": "Emprendedor",
+      "company": "Hatdigital"
+    },
+    {
+      "name": "Juan",
+      "last_name": "Diaz",
+      "email": "diazpalmeroj@gmail.com",
+      "cuit": "44009275",
+      "phone": "2616221040",
+      "rubro": "Emprendedor",
+      "company": "Blackeagle"
+    },
+    {
+      "name": "Mario",
+      "last_name": "Moyano",
+      "email": "marioomoyano12@gmail.com",
+      "cuit": "20417956825",
+      "phone": "2612453810",
+      "rubro": "Emprendedor",
+      "company": "Historiasdevida"
+    },
+    {
+      "name": "Florencia",
+      "last_name": "Rocchietti",
+      "email": "rocchiettiflor@gmail.com",
+      "cuit": "27337615827",
+      "phone": "2613012406",
+      "rubro": "Emprendedor",
+      "company": "Seguru"
+    },
+    {
+      "name": "Candela",
+      "last_name": "Scolaro",
+      "email": "scolarocandela@gmail.com",
+      "cuit": "23438302824",
+      "phone": "2615347970",
+      "rubro": "Emprendedor",
+      "company": "Candelascolaro"
+    },
+    {
+      "name": "Gabriela",
+      "last_name": "Benelbas",
+      "email": "gabibenelbaz@hotmail.com",
+      "cuit": "27176401392",
+      "phone": "2615100289",
+      "rubro": "Emprendedor",
+      "company": "Gaby"
+    },
+    {
+      "name": "Julieta",
+      "last_name": "Mazziotti",
+      "email": "julimazzi@hotmail.com",
+      "cuit": "2730148838",
+      "phone": "2616464087",
+      "rubro": "Emprendedor",
+      "company": "Julyy"
+    },
+    {
+      "name": "Agostina",
+      "last_name": "Ramirez",
+      "email": "ramirezagostina0300@gmail.com",
+      "cuit": "27458741617",
+      "phone": "2615553896",
+      "rubro": "Emprendedor",
+      "company": "Sensualitylenceria"
+    },
+    {
+      "name": "Clara",
+      "last_name": "Nicastro",
+      "email": "clarita.nicastro@gmail.com",
+      "cuit": "52096562",
+      "phone": "2614601640",
+      "rubro": "Emprendedor",
+      "company": "Clue"
+    },
+    {
+      "name": "Luciana",
+      "last_name": "Mampel",
+      "email": "lumampel15@gmail.com",
+      "cuit": "27447471146",
+      "phone": "2614719914",
+      "rubro": "Emprendedor",
+      "company": "Clue"
+    },
+    {
+      "name": "Celeste",
+      "last_name": "Garbuglia",
+      "email": "celestegarbugliacn@gmail.com",
+      "cuit": "27447472487",
+      "phone": "2615585739",
+      "rubro": "Emprendedor",
+      "company": "Clue"
+    },
+    {
+      "name": "Valentina",
+      "last_name": "Ferreira",
+      "email": "valebferreira98@gmail.com",
+      "cuit": "23410302934",
+      "phone": "2635103329",
+      "rubro": "Emprendedor",
+      "company": "Valentina calzados"
+    },
+    {
+      "name": "Nahir",
+      "last_name": "Abrales",
+      "email": "nanuf.nf@gmail.com",
+      "cuit": "27410833552",
+      "phone": "2613871705",
+      "rubro": "Emprendedor",
+      "company": "Efectossalud"
+    },
+    {
+      "name": "Melani",
+      "last_name": "Borgia",
+      "email": "melanigorgia@grupobroda.com",
+      "cuit": "44403533",
+      "phone": "2612512163",
+      "rubro": "Emprendedor",
+      "company": "Emeralcapital"
+    },
+    {
+      "name": "Ana",
+      "last_name": "Rodriguez",
+      "email": "nani.rodriguez@gmail.com",
+      "cuit": "27383070796",
+      "phone": "2612405640",
+      "rubro": "Emprendedor",
+      "company": "Carmina"
+    },
+    {
+      "name": "Armando",
+      "last_name": "Gomez",
+      "email": "armando.gomez@osde.com.ar",
+      "cuit": "20307734568",
+      "phone": "2616183776",
+      "rubro": "Emprendedor",
+      "company": "Fedar"
+    },
+    {
+      "name": "Marcelo",
+      "last_name": "Dicesar",
+      "email": "marcedicesar0@gmail.com",
+      "cuit": "23245743149",
+      "phone": "2613368504",
+      "rubro": "Emprendedor",
+      "company": "Bacap"
+    },
+    {
+      "name": "Juan",
+      "last_name": "Garcia",
+      "email": "juancruxzgb@yahoo.com.ar",
+      "cuit": "23377783409",
+      "phone": "2616617352",
+      "rubro": "Emprendedor",
+      "company": "Autoestetica"
+    },
+    {
+      "name": "Elina",
+      "last_name": "Aguero",
+      "email": "elinaaguerozavala@gmail.com",
+      "cuit": "2731028447",
+      "phone": "2615549515",
+      "rubro": "Emprendedor",
+      "company": "Aguerofara"
+    },
+    {
+      "name": "Antonio",
+      "last_name": "Ambrosio",
+      "email": "ventasinformaticas202@gmail.com",
+      "cuit": "20305094286",
+      "phone": "261641095",
+      "rubro": "Emprendedor",
+      "company": "Abunsumos"
+    },
+    {
+      "name": "Priscila",
+      "last_name": "Gomez",
+      "email": "priscilagjsbka@gmail.com",
+      "cuit": "27474476702",
+      "phone": "2622611702",
+      "rubro": "Emprendedor",
+      "company": "Coperativa"
+    },
+    {
+      "name": "Janna",
+      "last_name": "Ponce",
+      "email": "jannaponce88@gmail.com",
+      "cuit": "46236726",
+      "phone": "2622236238",
+      "rubro": "Emprendedor",
+      "company": "Cooperativa"
+    },
+    {
+      "name": "Yamila",
+      "last_name": "Moreno",
+      "email": "yami.moreno.leta@gmail.com",
+      "cuit": "27382068209",
+      "phone": "2616390830",
+      "rubro": "Emprendedor",
+      "company": "Noria"
+    },
+    {
+      "name": "Agostina",
+      "last_name": "Bacchiocchi",
+      "email": "agos.bachiocchi@gmail.com",
+      "cuit": "27383363905",
+      "phone": "2616545115",
+      "rubro": "Emprendedor",
+      "company": "Craft markrr"
+    },
+    {
+      "name": "Sofia",
+      "last_name": "Masuelli",
+      "email": "sofiamasuelli@gmail.com",
+      "cuit": "27356204331",
+      "phone": "2664870809",
+      "rubro": "Emprendedor",
+      "company": "Libera"
+    },
+    {
+      "name": "Melina",
+      "last_name": "Buzon",
+      "email": "melibuzon16@gmail.com",
+      "cuit": "27420101347",
+      "phone": "2614684876",
+      "rubro": "Emprendedor",
+      "company": "Tarot"
+    },
+    {
+      "name": "Julieta",
+      "last_name": "Castillo",
+      "email": "castilloponcejulieta23@gmail.com",
+      "cuit": "27441228320",
+      "phone": "2612451593",
+      "rubro": "Emprendedor",
+      "company": "Ditutomza"
+    },
+    {
+      "name": "Oriana",
+      "last_name": "Herrera",
+      "email": "orianaherrera215@gmail.com",
+      "cuit": "27427933992",
+      "phone": "2613451155",
+      "rubro": "Emprendedor",
+      "company": "Orianax"
+    },
+    {
+      "name": "Layla",
+      "last_name": "Nacif",
+      "email": "laylanacif99@gmail.com",
+      "cuit": "274514345801",
+      "phone": "2615323129",
+      "rubro": "Emprendedor",
+      "company": " Ommu ity"
+    },
+    {
+      "name": "Celeste",
+      "last_name": "Chacon",
+      "email": "mceles22@gmail.com",
+      "cuit": "27418632173",
+      "phone": "2614183947",
+      "rubro": "Emprendedor",
+      "company": "Bantang.pc"
+    },
+    {
+      "name": "Franco",
+      "last_name": "Albertu",
+      "email": "frankdeivid9@gmail.com",
+      "cuit": "20475296533",
+      "phone": "2616245040",
+      "rubro": "Emprendedor",
+      "company": "Franco enteenamiento"
+    },
+    {
+      "name": "David",
+      "last_name": "Merida",
+      "email": "david.f.n.merida@gmail.com",
+      "cuit": "40002229",
+      "phone": "2616738432",
+      "rubro": "Emprendedor",
+      "company": "Absolem"
+    },
+    {
+      "name": "Renata",
+      "last_name": "Guastavino",
+      "email": "r.guastavino01@gmail.com",
+      "cuit": "27412720720",
+      "phone": "2616591863",
+      "rubro": "Emprendedor",
+      "company": "Guasta"
+    },
+    {
+      "name": "Matias",
+      "last_name": "Alvornoz",
+      "email": "nahuelperalta775@gmail.com",
+      "cuit": "24463259454",
+      "phone": "261639952",
+      "rubro": "Emprendedor",
+      "company": "Enigma"
+    },
+    {
+      "name": "Ezequiel",
+      "last_name": "Romero",
+      "email": "eze.romero.giampo@gmail.com",
+      "cuit": "20451418662",
+      "phone": "2622353946",
+      "rubro": "Emprendedor",
+      "company": "Greencoffee"
+    },
+    {
+      "name": "Ezequiel",
+      "last_name": "Romero",
+      "email": "eze.romero.giampo@gmail.com",
+      "cuit": "20451418662",
+      "phone": "2622353946",
+      "rubro": "Emprendedor",
+      "company": "Greencoffee"
+    },
+    {
+      "name": "Juan",
+      "last_name": "Correa",
+      "email": "argohidroponia@gmail.com",
+      "cuit": "23390851049",
+      "phone": "2616802888",
+      "rubro": "Emprendedor",
+      "company": "Argo cultivos"
+    },
+    {
+      "name": "Bruno",
+      "last_name": "Cañamero",
+      "email": "brunocanamero@gmail.com",
+      "cuit": "20389078396",
+      "phone": "2615861627",
+      "rubro": "Emprendedor",
+      "company": "Argo cultivos"
+    },
+    {
+      "name": "Bruno",
+      "last_name": "Cañamero",
+      "email": "brunocanamero@gmail.com",
+      "cuit": "20389078396",
+      "phone": "2615861627",
+      "rubro": "Emprendedor",
+      "company": "Argo cultivos"
+    },
+    {
+      "name": "Abril",
+      "last_name": "Rodriguez",
+      "email": "anaabril03@gmail.com",
+      "cuit": "27451417466",
+      "phone": "2622560531",
+      "rubro": "Emprendedor",
+      "company": "Greencoffee"
+    },
+    {
+      "name": "Valentino",
+      "last_name": "Mairan",
+      "email": "mairan303782@gmail.com",
+      "cuit": "2045358846",
+      "phone": "2622691935",
+      "rubro": "Emprendedor",
+      "company": "Cargas de uco"
+    },
+    {
+      "name": "Melisa",
+      "last_name": "Ceballos",
+      "email": "melii.ceballos05@gmail.com",
+      "cuit": "27442457315",
+      "phone": "2622639733",
+      "rubro": "Emprendedor",
+      "company": "Craftbeer"
+    },
+    {
+      "name": "Juan",
+      "last_name": "Garay",
+      "email": "jgaray727@gmail.com",
+      "cuit": "33566055",
+      "phone": "2622432523",
+      "rubro": "Emprendedor",
+      "company": "Homedesig"
+    },
+    {
+      "name": "Fernando",
+      "last_name": "Suarez",
+      "email": "grupocret.arg@gmail.com",
+      "cuit": "2039531437",
+      "phone": "2616095690",
+      "rubro": "Emprendedor",
+      "company": "Grupocret"
+    },
+    {
+      "name": "Hernan",
+      "last_name": "Moyano",
+      "email": "hernanmoyanoluis@gmail.com",
+      "cuit": "20383335508",
+      "phone": "2622652720",
+      "rubro": "Emprendedor",
+      "company": "Justorufino"
+    },
+    {
+      "name": "Juan",
+      "last_name": "Morales",
+      "email": "jirustaj@gmail.com",
+      "cuit": "20253629011",
+      "phone": "2622589811",
+      "rubro": "Emprendedor",
+      "company": "Migranjitadecodornices"
+    },
+    {
+      "name": "Nicolas",
+      "last_name": "Lancellotti",
+      "email": "nelancellotti@gmail.com",
+      "cuit": "42862746",
+      "phone": "2616147407",
+      "rubro": "Emprendedor",
+      "company": "Nlfotos"
+    },
+    {
+      "name": "Silvia",
+      "last_name": "Galife",
+      "email": "silgalife@gmail.com",
+      "cuit": "20228848951",
+      "phone": "2644448450",
+      "rubro": "Emprendedor",
+      "company": "Couchingenaccion"
+    },
+    {
+      "name": "Silvina",
+      "last_name": "Morales",
+      "email": "silvifce@gmail.com",
+      "cuit": "27285848062",
+      "phone": "2616826235",
+      "rubro": "Emprendedor",
+      "company": "Gestionempresaria"
+    },
+    {
+      "name": "Carina",
+      "last_name": "Ledaca",
+      "email": "carinaledaca@gmail.com",
+      "cuit": "27277662006",
+      "phone": "2615260062",
+      "rubro": "Emprendedor",
+      "company": "Saludablementerico"
+    },
+    {
+      "name": "Laura",
+      "last_name": "Mercado",
+      "email": "mercadolaura2017@gmail.com",
+      "cuit": "23208973754",
+      "phone": "2622601395",
+      "rubro": "Emprendedor",
+      "company": "Auragourmet"
+    },
+    {
+      "name": "Diego",
+      "last_name": "Moreno",
+      "email": "dhmoreno@gmail.com",
+      "cuit": "30717835111",
+      "phone": "2645162805",
+      "rubro": "Emprendedor",
+      "company": "Embrionar"
+    },
+    {
+      "name": "Matias",
+      "last_name": "Cimino",
+      "email": "rmkinesiologo@gmail.com",
+      "cuit": "20320195013",
+      "phone": "2615066834",
+      "rubro": "Emprendedor",
+      "company": "Cima"
+    },
+    {
+      "name": "Matias",
+      "last_name": "Cimino",
+      "email": "rmkinesiologo@gmail.com",
+      "cuit": "20320195013",
+      "phone": "2615066834",
+      "rubro": "Emprendedor",
+      "company": "Cima"
+    },
+    {
+      "name": "Matias",
+      "last_name": "Cimino",
+      "email": "matecimino@hotmail.com",
+      "cuit": "20320195013",
+      "phone": "2615066834",
+      "rubro": "Emprendedor",
+      "company": "Cima"
+    },
+    {
+      "name": "Nicolas",
+      "last_name": "Lerch",
+      "email": "nicolerch97@gmail.com",
+      "cuit": "20405208424",
+      "phone": "03516274540",
+      "rubro": "Otro",
+      "company": ""
+    }
+  ]

@@ -15,7 +15,7 @@
     "gender": "fem",
     "img": "yerbera.jpg",
     "option": "Yerbera",
-    "stock": 90
+    "stock": 70
   },
   {
     "option": "Proba de nuevo",
@@ -33,6 +33,6 @@
     "gender": "masc",
     "img": "set-matero-6.webp",
     "option": "Bolso Matero",
-    "stock": 30
+    "stock": 12
   }
 ]
