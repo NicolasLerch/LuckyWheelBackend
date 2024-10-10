@@ -1,12 +1,12 @@
 [
   {
-    "option": "Segui Participando",
+    "option": "Proba de nuevo",
     "stock": 9978,
     "img": "none",
     "gender": "none"
   },
   {
-    "option": "Segui Participando",
+    "option": "Proba de nuevo",
     "stock": 9985,
     "img": "none",
     "gender": "none"
@@ -15,16 +15,16 @@
     "gender": "fem",
     "img": "yerbera.jpg",
     "option": "Yerbera",
-    "stock": 10
+    "stock": 90
   },
   {
-    "option": "Segui Participando",
+    "option": "Proba de nuevo",
     "stock": 9985,
     "img": "none",
     "gender": "none"
   },
   {
-    "option": "Segui Participando",
+    "option": "Proba de nuevo",
     "stock": 9985,
     "img": "none",
     "gender": "none"
@@ -33,6 +33,6 @@
     "gender": "masc",
     "img": "set-matero-6.webp",
     "option": "Bolso Matero",
-    "stock": 10
+    "stock": 30
   }
 ]
